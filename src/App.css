@@ -1,0 +1,144 @@
+.app-outer {margin: 0 auto; width: 550px;}
+.logo {float: left; background:white}
+button.addbtn {
+  width: 36px;
+  height: 36px;
+}
+.icon-n {
+  background: url(./assets/veg.png) 0px 0px no-repeat;
+  width: 25px;
+  height: 30px;
+  float: left;
+  background-size: 45px;
+  margin-right: 5px;
+}
+.text-dark.border-bottom {
+  border-bottom: 2px solid #dee2e6!important;
+}
+.veg {
+  background-position: 0px 5px;
+}
+.non-veg {
+  background-position: -25px 5px;
+}
+.bgcolor {
+  background-color:#e67300 !important;
+}
+.addbtn svg {margin: -6px 0 0 -3px;}
+.btn-block svg {margin: -6px 10px 0 0;}
+
+.floatLeft{ float: left; width: 100%}
+
+.blank-state {
+  margin:0 0 1%;
+}
+
+.small, small {
+  font-size: 15px !important;
+}
+.upper-part{
+  height: 60px;
+  float: left;
+  background: -webkit-gradient(linear,left top,left bottom,from(#bc581e),to(#e27b36));
+  background: -webkit-linear-gradient(#bc581e,#e27b36);
+  background: -o-linear-gradient(#bc581e,#e27b36);
+  background: linear-gradient(#bc581e,#e27b36);
+  border-radius: 50% 50% 0 0;
+  position: relative;
+  width: 100%;
+  -webkit-box-shadow: inset -15px 0 #c15711;
+  box-shadow: inset -15px 0 #c15711;
+  margin: 2% auto 1%;
+  position: relative;
+}
+
+span.firstdot, span.seconddot, span.thirddot, span.fourthdot, span.fifthdot {
+  position: absolute;
+  width: 45px;
+  height: 10px;
+  background: white;
+  top: 44%;
+  left: 20%;
+  border-radius: 50%;
+  transform: rotate(-16deg);
+}
+
+span.seconddot{
+  top: 33%;
+  left: 31%;
+  transform: rotate(20deg);
+}
+
+span.thirddot{
+  top: 46%;
+  left: 46%;
+}
+
+span.fourthdot{
+  top: 33%;
+  left: 61%;
+  transform: rotate(20deg);
+}
+
+span.fifthdot{
+  top: 47%;
+  left: 76%;
+}
+
+
+.bottom-part{
+  height: 40px;
+  float: left;
+  background: -webkit-gradient(linear,left top,left bottom,from(#f08e4a),to(#e27b36));
+  background: -webkit-linear-gradient(#f08e4a,#e27b36);
+  background: -o-linear-gradient(#f08e4a,#e27b36);
+  background: linear-gradient(#f08e4a,#e27b36);
+  border-radius: 0 0 30px 30px;
+  position: relative;
+  width: 100%;
+  -webkit-box-shadow: inset -15px 0 #c15711;
+  box-shadow: inset -15px 0 #c15711;
+  margin:0% auto;
+}
+
+.salad {
+  background: linear-gradient(#228c1d,#91ce50);
+  border-radius: 20px;
+  width: 105%;
+  height: 20px;
+  float: left;
+  margin:0px 0 5px -11px;
+}
+
+.bacon {
+  background: linear-gradient(#bf3813,#c45e38);
+  border-radius: 20px;
+  width: 100%;
+  height: 20px;
+  float: left;
+  margin: 0px 0 5px;
+}
+
+.cheese {
+  background: linear-gradient(#f4d004,#d6bb22);
+  border-radius: 20px;
+  width: 112%;
+  height: 20px;
+  float: left;
+  margin: 0px 0 5px -26px;
+}
+
+.meat {
+  background: linear-gradient(#7f3608,#702e05);
+  border-radius: 20px;
+  width: 100%;
+  height: 20px;
+  float: left;
+  margin: 0px 0 1%;
+}
+
+.modal {
+  display: block!important;
+}
+
+.w-80 {width: 80%;}
